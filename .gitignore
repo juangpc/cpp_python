@@ -3,4 +3,9 @@
 
 .cache/
 
+.session
+
+build/
+out/
+
 
