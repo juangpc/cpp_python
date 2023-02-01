@@ -9,6 +9,5 @@ int add4(int a);
 
 }
 
-
 #endif  // LIBS_ADDER_ADDER_HPP_
 
