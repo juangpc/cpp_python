@@ -6,19 +6,20 @@
 
 int main(int argc, char* argv[]) {
   std::cout << "hello caracola!\n";
-  std::cout << "the result is " << adder::add2(3) << "\n";
-  std::cout << "the result is " << adder::add3(3) << "\n";
-  std::cout << "the result is " << adder::add4(3) << "\n";
 
   std::cout << " ------ " << "\n";
-  calls::callback2(13);
-  calls::callback1(12);
-  calls::callback3(14);
+  std::cout << "the result is " << adder::add2(1) << "\n";
+  std::cout << "the result is " << adder::add3(1) << "\n";
+  std::cout << "the result is " << adder::add4(1) << "\n";
 
   std::cout << " ------ " << "\n";
-  calls::callback2(randomy::getRandom());
-  calls::callback1(randomy::getRandom());
-  calls::callback3(randomy::getRandom());
+  calls::callback2(4);
+  calls::callback1(5);
+  calls::callback3(6);
 
+  std::cout << " ------ " << "\n";
+  std::cout << "Random input: " << randomy::getRandom() << "\n";
+  std::cout << "Random input: " << randomy::getRandom() << "\n";
+  std::cout << "Random input: " << randomy::getRandom() << "\n";
 }
 
