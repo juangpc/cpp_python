@@ -14,9 +14,7 @@ echo BUILD_FOLDER=$BUILD_FOLDER
 echo SRC_FOLDER=$SRC_FOLDER
 echo OUT_FOLDER=$OUT_FOLDER
 
-
-export PATH="/usr/local/Cellar/llvm/15.0.6/bin/:/usr/local/Cellar/llvm/15.0.6/lib/:$PATH"
-
+# export PATH="/usr/local/Cellar/llvm/15.0.6/bin/:/usr/local/Cellar/llvm/15.0.6/lib/:$PATH"
 
 function deleteBuildFolder() {
     rm -fr $BUILD_FOLDER
@@ -26,12 +24,8 @@ function deleteBuildFolder() {
 function runTestAdder() {
     $OUT_FOLDER/test_adder
     /usr/local/Cellar/llvm/15.0.6/bin/llvm-cov report -instr-profile=$BUILD_FOLDER/libs/adder/CMakeFiles/adder.dir/adder.cpp.gcno
-
     #gcov -f --demangled-names $BUILD_FOLDER/libs/adder/CMakeFiles/adder.dir/adder.cpp.gcno
 }
-
-
-
 
 if [[ $1 == "clean"  ]]; then
     deleteBuildFolder
