@@ -1,5 +1,15 @@
 [
 {
+  "directory": "/Users/j/projects/cpp_python/build/libs/randomy",
+  "command": "/usr/local/Cellar/llvm/15.0.6/bin/clang++  -I/Users/j/projects/cpp_python/src/libs/adder/.. -I/opt/anaconda3/include/python3.9  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -ftest-coverage -fprofile-arcs -std=gnu++20 -o CMakeFiles/adder.dir/adder.cpp.o -c /Users/j/projects/cpp_python/src/libs/adder/adder.cpp",
+  "file": "/Users/j/projects/cpp_python/src/libs/randomy/python_bindings/randomy_python_bindings.cpp"
+},
+{
+  "directory": "/Users/j/projects/cpp_python/build/libs/calls",
+  "command": "/usr/local/Cellar/llvm/15.0.6/bin/clang++  -I/Users/j/projects/cpp_python/src/libs/adder/.. -I/opt/anaconda3/include/python3.9  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -ftest-coverage -fprofile-arcs -std=gnu++20 -o CMakeFiles/adder.dir/adder.cpp.o -c /Users/j/projects/cpp_python/src/libs/adder/adder.cpp",
+  "file": "/Users/j/projects/cpp_python/src/libs/calls/python_bindings/calls_python_bindings.cpp"
+},
+{
   "directory": "/Users/j/projects/cpp_python/build/libs/adder",
   "command": "/usr/local/Cellar/llvm/15.0.6/bin/clang++  -I/Users/j/projects/cpp_python/src/libs/adder/.. -I/opt/anaconda3/include/python3.9  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -ftest-coverage -fprofile-arcs -std=gnu++20 -o CMakeFiles/adder.dir/adder.cpp.o -c /Users/j/projects/cpp_python/src/libs/adder/adder.cpp",
   "file": "/Users/j/projects/cpp_python/src/libs/adder/python_bindings/adder_python_bindings.cpp"

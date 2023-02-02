@@ -9,6 +9,4 @@ void printRandom();
 
 }
 
-
-
 #endif  // LIBS_RANDOMY_RANDOMY_HPP_
