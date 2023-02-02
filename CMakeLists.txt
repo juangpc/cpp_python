@@ -11,8 +11,8 @@ set(CMAKE_CXX_STANDARD 20)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_HOME_DIRECTORY}/../out/ )
 
-set(CMAKE_C_COMPILER /usr/local/Cellar/llvm/15.0.6/bin/clang)
-set(CMAKE_CXX_COMPILER /usr/local/Cellar/llvm/15.0.6/bin/clang++)
+# set(CMAKE_C_COMPILER /usr/local/Cellar/llvm/15.0.7_1/bin/clang)
+# set(CMAKE_CXX_COMPILER /usr/local/Cellar/llvm/15.0.7_1/bin/clang++)
  
 add_subdirectory(libs)
 # add_subdirectory(embedding)

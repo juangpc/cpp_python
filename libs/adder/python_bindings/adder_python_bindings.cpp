@@ -57,7 +57,7 @@ static struct PyModuleDef cModPyDem = {
     callbackMethods
 };
 
-PyMODINIT_FUNC PyInit_callback_module(void) {
+PyMODINIT_FUNC PyInit_adder(void) {
   return PyModule_Create(&cModPyDem);
 }
 #else
