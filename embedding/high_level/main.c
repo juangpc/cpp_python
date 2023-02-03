@@ -2,6 +2,7 @@
 #include <Python.h>
 
 int main(int argc, char* argv[]) {
+  printf("\n\nProgram works!!\n");
   wchar_t *program = Py_DecodeLocale(argv[0], NULL);
   if (program == NULL) {
     fprintf(stderr, "Fatal error: cannot decode argv[0]\n");

@@ -1,57 +1,67 @@
 [
 {
-  "directory": "/Users/j/projects/cpp_python/build/libs/randomy",
-  "command": "/usr/local/Cellar/llvm/15.0.6/bin/clang++  -I/Users/j/projects/cpp_python/src/libs/adder/.. -I/opt/anaconda3/include/python3.9  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -ftest-coverage -fprofile-arcs -std=gnu++20 -o CMakeFiles/adder.dir/adder.cpp.o -c /Users/j/projects/cpp_python/src/libs/adder/adder.cpp",
-  "file": "/Users/j/projects/cpp_python/src/libs/randomy/python_bindings/randomy_python_bindings.cpp"
+  "directory": "/Users/j/projects/cpp_python/src/embedding/high_level2/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/usr/local/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -I/usr/local/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11 -Wsign-compare -Wunreachable-code -fno-common -dynamic -DNDEBUG -g -fwrapv -O3 -Wall -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk -o CMakeFiles/python_extension.dir/main.c.o -c /Users/j/projects/cpp_python/src/embedding/high_level2/main.c",
+  "file": "/Users/j/projects/cpp_python/src/embedding/high_level2/main.c"
 },
 {
-  "directory": "/Users/j/projects/cpp_python/build/libs/calls",
-  "command": "/usr/local/Cellar/llvm/15.0.6/bin/clang++  -I/Users/j/projects/cpp_python/src/libs/adder/.. -I/opt/anaconda3/include/python3.9  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -ftest-coverage -fprofile-arcs -std=gnu++20 -o CMakeFiles/adder.dir/adder.cpp.o -c /Users/j/projects/cpp_python/src/libs/adder/adder.cpp",
-  "file": "/Users/j/projects/cpp_python/src/libs/calls/python_bindings/calls_python_bindings.cpp"
-},
-{
-  "directory": "/Users/j/projects/cpp_python/build/libs/adder",
-  "command": "/usr/local/Cellar/llvm/15.0.6/bin/clang++  -I/Users/j/projects/cpp_python/src/libs/adder/.. -I/opt/anaconda3/include/python3.9  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -ftest-coverage -fprofile-arcs -std=gnu++20 -o CMakeFiles/adder.dir/adder.cpp.o -c /Users/j/projects/cpp_python/src/libs/adder/adder.cpp",
+  "directory": "/Users/j/projects/cpp_python/",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/j/projects/cpp_python/src/libs/adder/.. -I/opt/anaconda3/include/python3.9  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=10.9 -ftest-coverage -fprofile-arcs -std=gnu++20 -o CMakeFiles/adder.dir/adder.cpp.o -c /Users/j/projects/cpp_python/src/libs/adder/adder.cpp",
   "file": "/Users/j/projects/cpp_python/src/libs/adder/python_bindings/adder_python_bindings.cpp"
 },
 {
   "directory": "/Users/j/projects/cpp_python/build/libs/adder",
-  "command": "/usr/local/Cellar/llvm/15.0.6/bin/clang++  -I/Users/j/projects/cpp_python/src/libs/adder/.. -I/opt/anaconda3/include/python3.9  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -ftest-coverage -fprofile-arcs -std=gnu++20 -o CMakeFiles/adder.dir/adder.cpp.o -c /Users/j/projects/cpp_python/src/libs/adder/adder.cpp",
-  "file": "/Users/j/projects/cpp_python/src/libs/adder/adder.cpp"
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/j/projects/cpp_python/src/libs/adder/.. -I/opt/anaconda3/include/python3.9  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=10.9 -ftest-coverage -fprofile-arcs -std=gnu++20 -o CMakeFiles/adder.dir/adder.cpp.o -c /Users/j/projects/cpp_python/src/libs/adder/adder.cpp",
+  "file": "/Users/j/projects/cpp_python/src/libs/calls/python_bindings/calls_python_bindings.cpp"
 },
 {
   "directory": "/Users/j/projects/cpp_python/build/libs/adder",
-  "command": "/usr/local/Cellar/llvm/15.0.6/bin/clang++ -Dadder_d_EXPORTS -I/Users/j/projects/cpp_python/src/libs/adder/..  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fPIC -std=gnu++20 -o CMakeFiles/adder_d.dir/adder.cpp.o -c /Users/j/projects/cpp_python/src/libs/adder/adder.cpp",
-  "file": "/Users/j/projects/cpp_python/src/libs/adder/adder.cpp"
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/j/projects/cpp_python/src/libs/adder/.. -I/opt/anaconda3/include/python3.9  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=10.9 -std=gnu++20 -o CMakeFiles/adder_release.dir/adder.cpp.o -c /Users/j/projects/cpp_python/src/libs/adder/adder.cpp",
+  "file": "/Users/j/projects/cpp_python/src/libs/randomy/python_bindings/randomy_python_bindings.cpp"
+},
+{
+  "directory": "/Users/j/projects/cpp_python/build/libs/adder",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -Dadder_d_EXPORTS -I/Users/j/projects/cpp_python/src/libs/adder/..  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=10.9 -fPIC -std=gnu++20 -o CMakeFiles/adder_d.dir/adder.cpp.o -c /Users/j/projects/cpp_python/src/libs/adder/adder.cpp",
+  "file": "/Users/j/projects/cpp_python/src/embedding/high_level/main.c"
+},
+{
+  "directory": "/Users/j/projects/cpp_python/src/embedding/high_level2",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -Dadder_d_EXPORTS -I/Users/j/projects/cpp_python/src/libs/adder/..  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=10.9 -fPIC -std=gnu++20 -o CMakeFiles/adder_d.dir/adder.cpp.o -c /Users/j/projects/cpp_python/src/libs/adder/adder.cpp",
+  "file": "/Users/j/projects/cpp_python/src/embedding/high_level2/main.c"
 },
 {
   "directory": "/Users/j/projects/cpp_python/build/libs/calls",
-  "command": "/usr/local/Cellar/llvm/15.0.6/bin/clang++  -I/Users/j/projects/cpp_python/src/libs/calls/..  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -ftest-coverage -fprofile-arcs -std=gnu++20 -o CMakeFiles/calls.dir/calls.cpp.o -c /Users/j/projects/cpp_python/src/libs/calls/calls.cpp",
-  "file": "/Users/j/projects/cpp_python/src/libs/calls/calls.cpp"
-},
-{
-  "directory": "/Users/j/projects/cpp_python/build/libs/calls",
-  "command": "/usr/local/Cellar/llvm/15.0.6/bin/clang++ -Dcalls_d_EXPORTS -I/Users/j/projects/cpp_python/src/libs/calls/..  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fPIC -std=gnu++20 -o CMakeFiles/calls_d.dir/calls.cpp.o -c /Users/j/projects/cpp_python/src/libs/calls/calls.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -Dcalls_d_EXPORTS -I/Users/j/projects/cpp_python/src/libs/calls/..  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fPIC -std=gnu++20 -o CMakeFiles/calls_d.dir/calls.cpp.o -c /Users/j/projects/cpp_python/src/libs/calls/calls.cpp",
   "file": "/Users/j/projects/cpp_python/src/libs/calls/calls.cpp"
 },
 {
   "directory": "/Users/j/projects/cpp_python/build/libs/randomy",
-  "command": "/usr/local/Cellar/llvm/15.0.6/bin/clang++  -I/Users/j/projects/cpp_python/src/libs/randomy/..  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -ftest-coverage -fprofile-arcs -std=gnu++20 -o CMakeFiles/randomy.dir/randomy.cpp.o -c /Users/j/projects/cpp_python/src/libs/randomy/randomy.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/j/projects/cpp_python/src/libs/randomy/..  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -ftest-coverage -fprofile-arcs -std=gnu++20 -o CMakeFiles/randomy.dir/randomy.cpp.o -c /Users/j/projects/cpp_python/src/libs/randomy/randomy.cpp",
   "file": "/Users/j/projects/cpp_python/src/libs/randomy/randomy.cpp"
 },
 {
   "directory": "/Users/j/projects/cpp_python/build/libs/randomy",
-  "command": "/usr/local/Cellar/llvm/15.0.6/bin/clang++  -I/Users/j/projects/cpp_python/src/libs/randomy/..  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -ftest-coverage -fprofile-arcs -std=gnu++20 -o CMakeFiles/randomy.dir/printRandom.cpp.o -c /Users/j/projects/cpp_python/src/libs/randomy/printRandom.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/j/projects/cpp_python/src/libs/randomy/..  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -ftest-coverage -fprofile-arcs -std=gnu++20 -o CMakeFiles/randomy.dir/printRandom.cpp.o -c /Users/j/projects/cpp_python/src/libs/randomy/printRandom.cpp",
   "file": "/Users/j/projects/cpp_python/src/libs/randomy/printRandom.cpp"
 },
 {
   "directory": "/Users/j/projects/cpp_python/build/libs/randomy",
-  "command": "/usr/local/Cellar/llvm/15.0.6/bin/clang++ -Drandomy_d_EXPORTS -I/Users/j/projects/cpp_python/src/libs/randomy/..  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fPIC -std=gnu++20 -o CMakeFiles/randomy_d.dir/randomy.cpp.o -c /Users/j/projects/cpp_python/src/libs/randomy/randomy.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/j/projects/cpp_python/src/libs/randomy/..  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=10.9 -std=gnu++20 -o CMakeFiles/randomy_release.dir/randomy.cpp.o -c /Users/j/projects/cpp_python/src/libs/randomy/randomy.cpp",
+  "file": "/Users/j/projects/cpp_python/src/libs/randomy/randomy.cpp"
+},
+{
+  "directory": "/Users/j/projects/cpp_python/build/libs/randomy",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/j/projects/cpp_python/src/libs/randomy/..  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=10.9 -std=gnu++20 -o CMakeFiles/randomy_release.dir/printRandom.cpp.o -c /Users/j/projects/cpp_python/src/libs/randomy/printRandom.cpp",
+  "file": "/Users/j/projects/cpp_python/src/libs/randomy/printRandom.cpp"
+},
+{
+  "directory": "/Users/j/projects/cpp_python/build/libs/randomy",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -Drandomy_d_EXPORTS -I/Users/j/projects/cpp_python/src/libs/randomy/..  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -fPIC -std=gnu++20 -o CMakeFiles/randomy_d.dir/randomy.cpp.o -c /Users/j/projects/cpp_python/src/libs/randomy/randomy.cpp",
   "file": "/Users/j/projects/cpp_python/src/libs/randomy/randomy.cpp"
 },
 {
   "directory": "/Users/j/projects/cpp_python/build/test",
-  "command": "/usr/local/Cellar/llvm/15.0.6/bin/clang++  -I/Users/j/projects/cpp_python/src/libs/adder/.. -I/opt/anaconda3/include/python3.9 -I/Users/j/projects/cpp_python/src/libs/calls/.. -I/Users/j/projects/cpp_python/src/libs/randomy/..  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++20 -o CMakeFiles/test_adder.dir/main.cpp.o -c /Users/j/projects/cpp_python/src/test/main.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/j/projects/cpp_python/src/libs/adder/.. -I/opt/anaconda3/include/python3.9 -I/Users/j/projects/cpp_python/src/libs/calls/.. -I/Users/j/projects/cpp_python/src/libs/randomy/..  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++20 -o CMakeFiles/test_adder.dir/main.cpp.o -c /Users/j/projects/cpp_python/src/test/main.cpp",
   "file": "/Users/j/projects/cpp_python/src/test/main.cpp"
 }
 ]
