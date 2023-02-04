@@ -1,6 +1,11 @@
 [
 {
-  "directory": "/Users/j/projects/cpp_python/src/embedding/high_level2/build",
+  "directory": "/Users/j/projects/cpp_python/src/embedding/extended",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/usr/local/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -I/usr/local/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11 -Wsign-compare -Wunreachable-code -fno-common -dynamic -DNDEBUG -g -fwrapv -O3 -Wall -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk -o CMakeFiles/python_extension.dir/main.c.o -c /Users/j/projects/cpp_python/src/embedding/high_level2/main.c",
+  "file": "/Users/j/projects/cpp_python/src/embedding/extended/main.c"
+},
+{
+  "directory": "/Users/j/projects/cpp_python/src/embedding/high_level2",
   "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/usr/local/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -I/usr/local/opt/python@3.11/Frameworks/Python.framework/Versions/3.11/include/python3.11 -Wsign-compare -Wunreachable-code -fno-common -dynamic -DNDEBUG -g -fwrapv -O3 -Wall -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk -o CMakeFiles/python_extension.dir/main.c.o -c /Users/j/projects/cpp_python/src/embedding/high_level2/main.c",
   "file": "/Users/j/projects/cpp_python/src/embedding/high_level2/main.c"
 },

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.2)
 
-project(high_level2)
+project(EXTENDED_EMBEDDED_PYTHON)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
