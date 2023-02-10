@@ -2,7 +2,10 @@
 #include "Python.h"
 #include "adder/adder.hpp"
 
+#ifdef __cplusplus
 extern "C" {
+#endif
+
 int adder_add2(int a) {
   return adder::add2(a);
 }
@@ -14,7 +17,11 @@ int adder_add3(int a) {
 int adder_add4(int a) {
   return adder::add4(a);
 }
+
+#ifdef __cplusplus
 }
+#endif
+
 
 static PyObject* adder_add2_pyCallback(PyObject* self, PyObject* args) {
   int valueIn, valueOut;

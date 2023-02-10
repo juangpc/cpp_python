@@ -2,7 +2,10 @@
 #include "Python.h"
 #include "randomy/randomy.hpp"
 
+#ifdef __cplusplus
 extern "C" {
+#endif
+
 int randomy_getRandom() {
   return randomy::getRandom();
 }
@@ -11,7 +14,9 @@ void randomy_printRandom() {
   randomy::printRandom();
 }
 
+#ifdef __cplusplus
 }
+#endif
 
 static PyObject* randomy_getRandom_pyCallback(PyObject* self, PyObject* args) {
   int valueOut;

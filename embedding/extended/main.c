@@ -4,8 +4,13 @@
 static int numargs = 0;
 
 static PyObject* emb_numargs(PyObject* self, PyObject* args) {
-  if (!PyArg_ParseTuple(args, ":numargs"))
+  // int i, j;
+  //
+  // if (!PyArg_ParseTuple(args, "ii", &i, &j))
+  //   return NULL;
+  if (!PyArg_ParseTuple(args, ""))
     return NULL;
+
   return PyLong_FromLong(numargs);
 }
 
@@ -39,6 +44,7 @@ int main(int argc, char *argv[]) {
   PyConfig_InitPythonConfig(&config);
   config.module_search_paths_set = 1;
   PyWideStringList_Append(&config.module_search_paths, L".");
+
   Py_InitializeFromConfig(&config);
 
   FILE* fp = fopen("main.py", "r");

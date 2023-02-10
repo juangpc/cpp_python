@@ -2,7 +2,10 @@
 #include "Python.h"
 #include "calls/calls.hpp"
 
+#ifdef __cplusplus
 extern "C" {
+#endif
+
 void calls_callback1(int a) {
   calls::callback1(a);
 }
@@ -14,7 +17,10 @@ void calls_callback2(int a) {
 void calls_callback3(int a) {
   calls::callback3(a);
 }
+
+#ifdef __cplusplus
 }
+#endif
 
 static PyObject* calls_callback1_pyCallback(PyObject* self, PyObject* args) {
   int valueIn;

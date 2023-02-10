@@ -15,7 +15,7 @@ def say_hello1():
     return 1
 
 
-def say_hello2():
-    """Function that says hello 2"""
-    print("Hello from sayHello2!")
+def say_hello3():
+    """Function that says hello 3"""
+    print("Hello from sayHello3!")
     return 2
