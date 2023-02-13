@@ -53,7 +53,7 @@ int main(int argc, char* argv[]) {
   PyObject* result = PyRun_File(py_file, argv[1], Py_file_input, global_dict, local_dict);
   Py_DECREF(global_dict);
   Py_DECREF(local_dict);
-  // Py_DECREF(result);
+  Py_DECREF(result);
   fclose(py_file);
   
   Py_Finalize();
