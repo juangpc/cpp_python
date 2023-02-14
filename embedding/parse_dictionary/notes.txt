@@ -1,0 +1,2 @@
+(aka '_object *(*)(_object *, _object *)')
+(aka '_object *(   _object *, _object *const *)')

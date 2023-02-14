@@ -31,5 +31,5 @@ set_target_properties(python_extension PROPERTIES
   RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}
 )
 separate_arguments(Python_FLAGS_NORM UNIX_COMMAND "${Python_FLAGS}")
-target_compile_options(python_extension PUBLIC ${Python_FLAGS_NORM})
+target_compile_options(python_extension PUBLIC ${Python_FLAGS_NORM} "-O3")
 
