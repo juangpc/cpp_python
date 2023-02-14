@@ -10,4 +10,8 @@ out/
 
 compile_commands.json
 
+call
+
+__pycache__
+
 
