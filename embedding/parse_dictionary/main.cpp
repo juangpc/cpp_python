@@ -141,13 +141,21 @@ static PyObject* dict_parser(PyObject* self, PyObject*const* args, Py_ssize_t ar
   // }
 
   delete[] dataValues;
+
+
+  // important !!!!!
+  // we need to Py_DECREF a few PyObjects!!!!
+
   return Py_None;
 }
 
 static struct PyMethodDef callbacksMethods[] = {
-  {"dict_parser_fastcall", _PyCFunction_CAST(dict_parser_py_fastcall), METH_FASTCALL, "Parse dictionary fastcall"},
-  {"dict_parser", _PyCFunction_CAST(dict_parser), METH_FASTCALL, "Parse dictionary"},
-  {"dict_parser_varargs", dict_parser_py_varargs, METH_VARARGS, "Parse dictionary with varargs"},
+  {"dict_parser_fastcall", _PyCFunction_CAST(dict_parser_py_fastcall),
+    METH_FASTCALL, "Parse dictionary fastcall"},
+  {"dict_parser", _PyCFunction_CAST(dict_parser),
+    METH_FASTCALL, "Parse dictionary"},
+  {"dict_parser_varargs", dict_parser_py_varargs,
+    METH_VARARGS, "Parse dictionary with varargs"},
   {NULL, NULL, 0, NULL}
 };
 
@@ -159,8 +167,6 @@ static PyModuleDef CallModule = {
 static PyObject* PyInit_parsing(void) {
   return PyModule_Create(&CallModule);
 }
-
-
 
 int main(int argc, char* argv[]) {
   // std::cout << "Starting execution\n";
@@ -175,13 +181,17 @@ int main(int argc, char* argv[]) {
 
   FILE* py_file;
   if (argc != 2) {
-    std::cout << "Usage: ./" << argv[0] << ": main.py\n";
+    std::cout << "Usage: " << argv[0] << ": main.py\n";
     exit(1);
   }
   py_file = fopen(argv[1], "r");
   PyObject* global_dict = PyDict_New();
   PyObject* local_dict = PyDict_New();
-  PyObject* result = PyRun_File(py_file, argv[1], Py_file_input, global_dict, local_dict);
+  PyObject* result = PyRun_File(py_file,
+                                argv[1],
+                                Py_file_input,
+                                global_dict,
+                                local_dict);
   Py_DECREF(global_dict);
   Py_DECREF(local_dict);
   Py_DECREF(result);
