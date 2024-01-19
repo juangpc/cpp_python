@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 SCRIPT_PATH="$0"
 ROOT_FOLDER=""
 ROOT_FOLDER="$(cd -- "$(dirname $SCRIPT_PATH)/.." && pwd)"
